@@ -1,0 +1,14 @@
+{
+    "name": "beresterk/craft",
+    "description": "Craft install pack for Beresterk",
+    "type": "project",
+    "require": {
+        "craftcms/cms": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Jan Hendrickx",
+            "email": "jan.hendrickx@beresterk.be"
+        }
+    ]
+}
