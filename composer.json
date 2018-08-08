@@ -1,6 +1,5 @@
 {
     "name": "beresterk/craft",
-    "version": "1.0.0",
     "description": "Craft install pack for Beresterk",
     "type": "project",
     "license": "MIT",
