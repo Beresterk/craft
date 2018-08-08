@@ -1,7 +1,7 @@
 {
     "name": "beresterk/craft",
     "description": "Craft install project for Beresterk",
-    "version": "1.0.0",
+    "type": "project",
     "require": {
         "craftcms/cms": "^3.0",
         "vlucas/phpdotenv": "^2.5"
