@@ -44,7 +44,7 @@
       "@php craft setup/welcome"
     ],
     "post-install-cmd": [
-      "craft/post-install.sh"
+      "post-install.sh"
     ]
   }
 }
