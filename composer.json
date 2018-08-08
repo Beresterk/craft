@@ -1,6 +1,6 @@
 {
   "name": "craftcms/craft",
-  "description": "Craft CMS",
+  "description": "A custom Craft CMS install project for Beresterk",
   "keywords": [
     "craft",
     "cms",
