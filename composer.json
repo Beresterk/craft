@@ -1,0 +1,17 @@
+{
+    "name": "beresterk/craft",
+    "description": "Craft install project for Beresterk",
+    "type": "project",
+    "require": {
+        "craftcms/cms": "^3.0",
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Hendrickx",
+            "email": "jan.hendrickx@beresterk.be"
+        }
+    ],
+    "minimum-stability": "stable"
+}
