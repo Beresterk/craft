@@ -4,7 +4,7 @@
     "type": "project",
     "license": "MIT",
     "require": {
-        "craftcms/cms": "^3.0"
+        "craftcms/craft": "^3.0"
     },
     "authors": [
         {
