@@ -3,6 +3,7 @@
     "description": "Craft install pack for Beresterk",
     "type": "project",
     "license": "MIT",
+    "minimum-stability": "dev",
     "require": {
         "craftcms/craft": "^3.0"
     },
