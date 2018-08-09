@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5d34572d38132939a9a89402e357762",
+    "content-hash": "8b341145e0e6fcdb448d69df91135709",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -1500,6 +1500,43 @@
                 "psr-3"
             ],
             "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "sebastianlenz/linkfield",
+            "version": "1.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastian-lenz/craft-linkfield.git",
+                "reference": "db54a48fbc685f306a7610ca76d8e6e19f483b84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastian-lenz/craft-linkfield/zipball/db54a48fbc685f306a7610ca76d8e6e19f483b84",
+                "reference": "db54a48fbc685f306a7610ca76d8e6e19f483b84",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1",
+                "php": "^7.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "handle": "typedlinkfield",
+                "name": "Typed link field",
+                "developer": "Sebastian Lenz",
+                "developerUrl": "https://github.com/sebastian-lenz/"
+            },
+            "autoload": {
+                "psr-4": {
+                    "typedlinkfield\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A Craft field type for selecting links",
+            "time": "2018-07-29T11:17:20+00:00"
         },
         {
             "name": "seld/cli-prompt",
