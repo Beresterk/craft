@@ -36,6 +36,7 @@
   "scripts": {
     "post-create-project-cmd": [
       "@php -r \"copy('.env.example', '.env');\"",
+      "@php -r \"copy('post.install.sh');\"",
       "@php -r \"unlink('composer.json');\"",
       "@php -r \"unlink('LICENSE.md');\"",
       "@php -r \"unlink('README.md');\"",
