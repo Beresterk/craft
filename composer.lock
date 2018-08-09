@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b341145e0e6fcdb448d69df91135709",
+    "content-hash": "436dbd541fda371adc7477241546d3c8",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -777,6 +777,59 @@
             "time": "2018-08-02T03:48:08+00:00"
         },
         {
+            "name": "embed/embed",
+            "version": "v3.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oscarotero/Embed.git",
+                "reference": "46e19804e330065c899657c047288f792e2bca02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oscarotero/Embed/zipball/46e19804e330065c899657c047288f792e2bca02",
+                "reference": "46e19804e330065c899657c047288f792e2bca02",
+                "shasum": ""
+            },
+            "require": {
+                "composer/ca-bundle": "^1.0",
+                "ext-curl": "*",
+                "ext-mbstring": "*",
+                "php": "^5.5|^7.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "phpunit/phpunit": "^4.8|^5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Embed\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oscar Otero",
+                    "email": "oom@oscarotero.com",
+                    "homepage": "http://oscarotero.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP library to retrieve page info using oembed, opengraph, etc",
+            "homepage": "https://github.com/oscarotero/Embed",
+            "keywords": [
+                "embed",
+                "embedly",
+                "oembed",
+                "opengraph",
+                "twitter cards"
+            ],
+            "time": "2018-06-18T21:12:45+00:00"
+        },
+        {
             "name": "enshrined/svg-sanitize",
             "version": "0.9.0",
             "source": {
@@ -1296,6 +1349,166 @@
                 "shell"
             ],
             "time": "2018-07-07T07:35:36+00:00"
+        },
+        {
+            "name": "mikestecker/craft-videoembedder",
+            "version": "1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikestecker/craft-videoembedder.git",
+                "reference": "59ddb17df8f9473f0f7955e330b727c835b66b01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikestecker/craft-videoembedder/zipball/59ddb17df8f9473f0f7955e330b727c835b66b01",
+                "reference": "59ddb17df8f9473f0f7955e330b727c835b66b01",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0",
+                "embed/embed": "^3.3"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Video Embedder",
+                "handle": "video-embedder",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/mikestecker/craft-videoembedder/v1/CHANGELOG.md",
+                "class": "mikestecker\\videoembedder\\VideoEmbedder"
+            },
+            "autoload": {
+                "psr-4": {
+                    "mikestecker\\videoembedder\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Stecker",
+                    "homepage": "http://github.com/mikestecker"
+                }
+            ],
+            "description": "Craft plugin to generate an embed URL from a YouTube or Vimeo URL.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "video embedder"
+            ],
+            "time": "2018-04-12T19:07:27+00:00"
+        },
+        {
+            "name": "mmikkel/cp-field-inspect",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mmikkel/CpFieldInspect-Craft.git",
+                "reference": "426d9638f8eca0f6a9f1beedb8a945726840d436"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mmikkel/CpFieldInspect-Craft/zipball/426d9638f8eca0f6a9f1beedb8a945726840d436",
+                "reference": "426d9638f8eca0f6a9f1beedb8a945726840d436",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "CP Field Inspect",
+                "handle": "cp-field-inspect",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/mmikkel/CpFieldInspect-Craft/master/CHANGELOG.md",
+                "class": "mmikkel\\cpfieldinspect\\CpFieldInspect"
+            },
+            "autoload": {
+                "psr-4": {
+                    "mmikkel\\cpfieldinspect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mats Mikkel Rummelhoff",
+                    "homepage": "http://mmikkel.no"
+                }
+            ],
+            "description": "Inspect field handles and easily edit field settings",
+            "keywords": [
+                "Craft",
+                "cms",
+                "cp field inspect",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "time": "2018-03-28T07:58:02+00:00"
+        },
+        {
+            "name": "nystudio107/craft-cookies",
+            "version": "1.1.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nystudio107/craft-cookies.git",
+                "reference": "e552e2a5f4e797c5cf537397224aaf689c363751"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nystudio107/craft-cookies/zipball/e552e2a5f4e797c5cf537397224aaf689c363751",
+                "reference": "e552e2a5f4e797c5cf537397224aaf689c363751",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Cookies",
+                "handle": "cookies",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/nystudio107/craft-cookies/v1/CHANGELOG.md",
+                "class": "nystudio107\\cookies\\Cookies",
+                "components": {
+                    "cookies": "nystudio107\\cookies\\services\\CookiesService"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "nystudio107\\cookies\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nystudio107",
+                    "homepage": "https://nystudio107.com/"
+                }
+            ],
+            "description": "A simple plugin for setting and getting cookies from within Craft CMS templates.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "cookies",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "time": "2018-07-22T06:44:45+00:00"
         },
         {
             "name": "paragonie/random_compat",
