@@ -1,7 +1,7 @@
 {
   "name": "beresterk/craft",
   "description": "A custom Craft CMS install project for Beresterk",
-  "version": "1.3.3",
+  "version": "1.4",
   "keywords": [
     "craft",
     "cms",
@@ -26,7 +26,8 @@
     "nystudio107/craft-cookies": "^1.0.0",
     "mmikkel/cp-field-inspect": "^1.0.0",
     "sebastianlenz/linkfield": "^1.0.0",
-    "mikestecker/craft-videoembedder": "^1.0.0"
+    "mikestecker/craft-videoembedder": "^1.0.0",
+    "ether/seo": "^3.0.0"
   },
   "autoload": {
     "psr-4": {
