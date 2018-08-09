@@ -44,10 +44,10 @@
       "@php craft setup/welcome"
     ],
     "post-install-cmd": [
-      "rm -rf www/",
-      "mv craft craft-folder",
-      "cd craft-folder",
-      "mv web www"
+      "@php rm -rf www/",
+      "@php mv craft craft-folder",
+      "@php cd craft-folder",
+      "@php mv web www"
     ]
   }
 }
