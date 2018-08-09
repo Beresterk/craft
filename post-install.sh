@@ -1,3 +1,4 @@
+cd ..
 rm -rf www/
 mv craft craft-folder
 cd craft-folder
