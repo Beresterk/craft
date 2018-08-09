@@ -1,6 +1,7 @@
 {
   "name": "beresterk/craft",
   "description": "A custom Craft CMS install project for Beresterk",
+  "version": "1.2.2",
   "keywords": [
     "craft",
     "cms",
