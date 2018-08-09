@@ -1,8 +1,7 @@
 cd ..
+rm -rf www/
 mv craft craft-folder
 cd craft-folder
-mv * .[^.]* ..
-cd ..
-rm -rf craft-folder/
-rm -rf www/
 mv web www
+mv * .[^.]* ..
+rm -rf craft-folder/
