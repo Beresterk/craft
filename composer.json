@@ -42,10 +42,10 @@
       "@php -r \"rename('composer.json.default', 'composer.json');\"",
       "@composer dump-autoload -o",
       "@php craft setup/welcome",
-      "@php rm -rf www/",
-      "@php mv craft craft-folder",
-      "@php cd craft-folder",
-      "@php mv web www"
+      "rm -rf www/",
+      "mv craft craft-folder",
+      "cd craft-folder",
+      "mv web www"
     ]
   }
 }
