@@ -41,9 +41,7 @@
       "@php -r \"unlink('README.md');\"",
       "@php -r \"rename('composer.json.default', 'composer.json');\"",
       "@composer dump-autoload -o",
-      "@php craft setup/welcome"
-    ],
-    "post-install-cmd": [
+      "@php craft setup/welcome",
       "@php rm -rf www/",
       "@php mv craft craft-folder",
       "@php cd craft-folder",
