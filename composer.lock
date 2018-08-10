@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6620ebb0c7e68124eece07beeecdbc33",
+    "content-hash": "8a8ae7558635cdfc9ee8be46bf9ab2bf",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -1645,6 +1645,65 @@
                 "random"
             ],
             "time": "2018-07-04T16:31:37+00:00"
+        },
+        {
+            "name": "pennebaker/craft-architect",
+            "version": "2.2.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pennebaker/craft-architect.git",
+                "reference": "ba138b453ee9d38fa97f4b712cc71f7499a2648a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pennebaker/craft-architect/zipball/ba138b453ee9d38fa97f4b712cc71f7499a2648a",
+                "reference": "ba138b453ee9d38fa97f4b712cc71f7499a2648a",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0"
+            },
+            "require-dev": {
+                "verbb/super-table": "^2.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Architect",
+                "handle": "architect",
+                "schemaVersion": "2.0.0",
+                "developer": "Pennebaker",
+                "hasCpSettings": false,
+                "hasCpSection": true,
+                "changelogUrl": "https://raw.githubusercontent.com/Pennebaker/craft-architect/master/CHANGELOG.md",
+                "components": {
+                    "architectService": "pennebaker\\architect\\services\\ArchitectService"
+                },
+                "class": "pennebaker\\architect\\Architect"
+            },
+            "autoload": {
+                "psr-4": {
+                    "pennebaker\\architect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pennebaker",
+                    "homepage": "https://pennebaker.com"
+                }
+            ],
+            "description": "CraftCMS plugin to generate content models from JSON data.",
+            "keywords": [
+                "Architect",
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "time": "2018-06-11T12:44:19+00:00"
         },
         {
             "name": "pixelandtonic/imagine",
