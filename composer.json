@@ -25,6 +25,7 @@
     "vlucas/phpdotenv": "^2.4.0",
     "nystudio107/craft-cookies": "^1.0.0",
     "mmikkel/cp-field-inspect": "^1.0.0",
+    "verbb/field-manager": "^2.0.0",
     "sebastianlenz/linkfield": "^1.0.0",
     "craftcms/redactor": "^2.0.0",
     "mikestecker/craft-videoembedder": "^1.0.0",
